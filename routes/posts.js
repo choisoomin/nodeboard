@@ -7,6 +7,10 @@ router.get("/", (req, res) => {
 router.get("/specific", (req, res) => {
     res.send("Specific post");
 });
-
-
+router.get("/specific2", (req, res) => {
+    res.send("Specific2 post");
+});
+router.get("/specific3", (req, res) => {
+    res.send("Specific3 post");
+});
 module.exports = router;
